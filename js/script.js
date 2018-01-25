@@ -3,7 +3,8 @@ $(function(){
 	var searchField = $('#query');
 	var icon = $('#search-btn');
 	
-	// Focus Event Handler
+    // Focus Event Handler
+    //Search Bar
 	$(searchField).on('focus', function(){
 		$(this).animate({
 			width:'100%'
